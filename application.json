@@ -1,0 +1,11 @@
+{
+  "title": "Заявка в BEDA",
+  "description": "Нажмите кнопку ниже, чтобы заполнить анкету и открыть закрытый тикет с офицерами клана.",
+  "fields": [
+    {"id": "steam_id", "label": "Steam ID", "required": true, "max_length": 100},
+    {"id": "applicant_name", "label": "Имя", "required": true, "max_length": 100},
+    {"label": "Возраст", "required": true, "max_length": 30},
+    {"id": "city", "label": "Город", "required": true, "max_length": 60},
+    {"label": "Удобное время для разговора (МСК)", "placeholder": "Какое время для вступительного разговора более удобно? (Указать период по мск)", "required": true, "paragraph": true, "max_length": 300}
+  ]
+}
